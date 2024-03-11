@@ -19,8 +19,8 @@
 
 <body>
     <!--header-->
-    <header id="site-header" class="sticky-lg-top">
-        <div class="container">
+    <header id="site-header" class="sticky-lg-top" style="padding-right: 20px;">
+        <div class="container-fluid px-0">
             <nav class="navbar navbar-expand-lg stroke px-0 pt-0">
                 <h1>
                     <!--a class="navbar-brand" href="">
@@ -83,44 +83,47 @@
     <!-- inner banner -->
     <section class="inner-banner py-5">
         <div class="w3l-breadcrumb py-lg-5">
-            <div class="container pt-4 pb-sm-4">
+            <!--div class="container pt-4 pb-sm-4">
                 <h4 class="inner-text-title font-weight-bold pt-5">About Us</h4>
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="index.html">Home</a></li>
                     <li class="active"><i class="fas fa-angle-right mx-2"></i>About</li>
                 </ul>
-            </div>
+            </div-->
         </div>
     </section>
     <!-- //inner banner -->
 
     <!-- about block -->
-    <section class="w3l-servicesblock py-5">
-        <div class="container py-lg-5 py-4">
-            <div class="row pt-xl-5 pt-lg-0 pt-5 pb-xl-4 align-items-center">
-                <div class="col-lg-6 position-relative home-block-3-left">
-                    <div class="position-relative">
-                        <img src="assets/images2/team.jpg" alt="" class="img-fluid radius-image">
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-6 offset-xl-1 mt-lg-0 mt-5">
-                    <h3 class="title-style">Welcome to Enrichbiz</h3>
+    <section class="w3l-servicesblock p-0">
+        <div class="container py-lg-5 pb-4 pt-2">
+            <div class="row">
+                <div class="">
+                    
                     <!--p class="mt-lg-4 mt-3 mb-sm-5 mb-4">team description </p-->
-                    <div class="two-grids mt-md-0 mt-md-5 mt-4">
-                        <div class="grids_info">
-                            <i class="fas fa-user-clock primary-clr-bg"></i>
-                            <div class="detail">
-                                <h4>Our Mission</h4>
-                                <p>To enrich businesses by making it easy for them to infuse artificial intelligence
-                                </p>
-                            </div>
+                    <div class="container row col-lg-8 text-white">
+                        <div class="col-lg-6">
+                            <div class="col p-4  h-100 shadow mt-2" style="border-radius: 10px;">
+                                <div class="grids_info">
+                                    <i class="fas fa-rocket primary-clr-bg"></i>
+                                    <div class="detail text-justify">
+                                        <h4>Our Mission</h4>
+                                        <p>To enrich businesses by making it easy for them to infuse artificial intelligence
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
                         </div>
-                        <div class="grids_info mt-sm-5 mt-4">
-                            <i class="fas fa-laptop-house green-clr-bg"></i>
-                            <div class="detail">
-                                <h4>Our Vision</h4>
-                                <p>To enable Businesses to focus on their core activities while we as trusted partner harness the power of AI to drive innovation, enhance efficiency and unlock new opportunities
-                                </p>
+                        <div class="col-lg-6">
+                            <div class="p-4  h-100 shadow mt-2" style="border-radius: 10px;">
+                                <div class="grids_info">
+                                    <i class="fas fa-eye green-clr-bg"></i>
+                                    <div class="detail text-justify">
+                                        <h4>Our Vision</h4>
+                                        <p>To enable Businesses to focus on their core activities while we as trusted partner harness the power of AI to drive innovation, enhance efficiency and unlock new opportunities
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -129,6 +132,7 @@
         </div>
     </section>
     <!-- //about block -->
+    <h3 class="text-center mt-3 mb-3">Our Team</h3>
     <section class="team container">
         <div class="row p-2 bg-light mb-2" style="border-radius: 10px;">
             <div class="col-lg-2 col-12 d-flex justify-content-center">
@@ -144,8 +148,30 @@
             <div class="col-lg-10 col-12 p-2">
                 <!--h4 class="text-center text-clr-bg mb-3">How ready is generative AI for Healthcare?</h4-->
                 <p class="text-clr-bg text-justify mb-2">Krishna has 20+ years of experience establishing start-ups and accelerating growth for existing business at large multinationals. He held leadership positions delivering solutions across Healthcare, IT, Telecommunications, Banking and Defense industry verticals.
-                    Krishna has extensive technology experience across Cloud, Artificial Intelligence, Analytics, Mobility, Collaboration, SaaS & healthcare solutions.
+                    </p><p>Krishna has extensive technology experience across Cloud, Artificial Intelligence, Analytics, Mobility, Collaboration, SaaS & healthcare solutions.
                     Krishna has an EMBA from XLRI- Singapore, Management Accountancy from IMA, and bachelor’s degree in engineering; he believes in continuous learning to enhance knowledge and skills.</p>
+                <!--div class="d-flex justify-content-end">
+                    <button class="btn btn-dark">Read More</button>
+                </div-->
+            </div>
+        </div>
+        <div class="row p-2 bg-light mb-2" style="border-radius: 10px;">
+            <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                <div class="card bg-transparent border-0">
+                    <div class="d-flex justify-content-center">
+                        <img src="assets/images2/cto.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+                    </div>
+                    <div class="card-body p-lg-2">
+                      <h5 class="card-title text-center text-clr-bg"><strong>Vijay Sarashetti <br> </strong>CTO<br><small>Enrichbiz</small></h5>
+                      <!--p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10 col-12 p-2">
+                <!--h4 class="text-center text-clr-bg mb-3">How ready is generative AI for Healthcare?</h4-->
+                <p class="text-clr-bg text-justify mb-2">Vijay has been in the information technology business for over 40 years, diversifying into hardware, core systems, core database, and core networks. In 1991, he created the first fully functional matching engine for a company's portfolio, surpassing well-established companies like TCS and Infosys. He became a Microsoft certified systems engineer and worked at Deutsche Bank, where he patented an innovation for managing storage, later selling it to HP. Vijay then became an independent consultant, bringing radical changes in AML and Fraud using AI algorithms, and developed a high-speed Micro-services architecture framework for the Mortgage securities market. In 2016, he became an evangelist for AI, Blockchain, and IoT, working with the government of India, and is now focused on purpose-driven, product-centric AI consulting, services, and solutions. 
+                    </p>
                 <!--div class="d-flex justify-content-end">
                     <button class="btn btn-dark">Read More</button>
                 </div-->
@@ -175,30 +201,9 @@
                 </div-->
             </div>
         </div>
-        <div class="row p-2 bg-light mb-2" style="border-radius: 10px;">
-            <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                <div class="card bg-transparent border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="assets/images2/cto.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
-                    </div>
-                    <div class="card-body p-lg-2">
-                      <h5 class="card-title text-center text-clr-bg"><strong>Vijay Sarashetti <br> </strong>CTO<br><small>Enrichbiz</small></h5>
-                      <!--p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a-->
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-10 col-12 p-2">
-                <!--h4 class="text-center text-clr-bg mb-3">How ready is generative AI for Healthcare?</h4-->
-                <p class="text-clr-bg text-justify mb-2">Vijay has been in the information technology business for over 40 years, diversifying into hardware, core systems, core database, and core networks. In 1991, he created the first fully functional matching engine for a company's portfolio, surpassing well-established companies like TCS and Infosys. He became a Microsoft certified systems engineer and worked at Deutsche Bank, where he patented an innovation for managing storage, later selling it to HP. Vijay then became an independent consultant, bringing radical changes in AML and Fraud using AI algorithms, and developed a high-speed Micro-services architecture framework for the Mortgage securities market. In 2016, he became an evangelist for AI, Blockchain, and IoT, working with the government of India, and is now focused on purpose-driven, product-centric AI consulting, services, and solutions. 
-                    </p>
-                <!--div class="d-flex justify-content-end">
-                    <button class="btn btn-dark">Read More</button>
-                </div-->
-            </div>
-        </div>
+        
     </section>
-    <section class="w3l-testimonials pb-5" id="testimonials">
+    <!--section class="w3l-testimonials pb-5" id="testimonials">
         <div class="container py-md-5 py-4">
             <div class="title-heading-w3 mx-auto text-center mb-5 pb-xl-4" style="max-width:600px">
                 <h3 class="title-style mb-2">What Our Clients Say!</h3>
@@ -246,7 +251,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
     <!-- //testimonials section -->
 
     <!-- footer -->
@@ -258,39 +263,39 @@
                         <div class="row">
                             <div class="col-md-3 col-6 footer-list-29">
                                 <ul>
-                                    <h6 class="footer-title-29">Company</h6>
-                                    <li><a href="">About Our Services</a></li>
-                                    <li><a href="">Our Projects</a></li>
-                                    <li><a href="">View Our Blog</a></li>
-                                    <li><a href="">Check Our Careers</a></li>
+                                    <h6 class="footer-title-29">MORE INFO</h6>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Solutions</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-3 col-6 footer-list-29">
-                                <ul>
+                                <!--ul>
                                     <h6 class="footer-title-29">Quick Links</h6>
                                     <li><a href="">Management</a></li>
                                     <li><a href="">Department Services</a></li>
                                     <li><a href="">Make Appointment</a></li>
                                     <li><a href="">Our Business Growth</a></li>
-                                </ul>
+                                </ul-->
                             </div>
                             <div class="col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
-                                <ul>
+                                <!--ul>
                                     <h6 class="footer-title-29">Support</h6>
                                     <li><a href="">Live Chart</a></li>
                                     <li><a href="">Faq's</a></li>
                                     <li><a href=""> Support</a></li>
                                     <li><a href="">Terms of Service</a></li>
-                                </ul>
+                                </ul-->
                             </div>
                             <div class="col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
-                                <h6 class="footer-title-29">More Info</h6>
+                                <!--h6 class="footer-title-29">More Info</h6>
                                 <ul>
                                     <li><a href="">Privacy Policy</a></li>
                                     <li><a href=""> Terms of Service</a></li>
                                     <li><a href="">Contact us</a></li>
                                     <li><a href=""> Support</a></li>
-                                </ul>
+                                </ul-->
                             </div>
                         </div>
                     </div>

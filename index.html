@@ -21,8 +21,8 @@
 
 <body>
     
-    <header id="site-header" class="sticky-lg-top">
-        <div class="container">
+    <header id="site-header" class="sticky-lg-top" style="padding-right: 20px;">
+        <div class="container-fluid px-0">
             <nav class="navbar navbar-expand-lg stroke px-0 pt-0">
                 <h1>
                     <!--a class="navbar-brand" href="">
@@ -62,7 +62,7 @@
                 </div>
                 <!-- //search button -->
                 <!-- toggle switch for light and dark theme -->
-                <div class="cont-ser-position">
+                <div class="cont-ser-position" data-toggle="tooltip" data-placement="left" title="Light / Dark">
                     <nav class="navigation">
                         <div class="theme-switch-wrapper">
                             <label class="theme-switch" for="checkbox">
@@ -127,13 +127,13 @@
                         <div class="icon">
                             <i class="fas fa-laptop-code blue-clr-bg"></i>
                         </div>
-                        <h4 class="number">01</h4>
+                        <h4 class="d-flex justify-content-end">Phase 1</h4>
                         <h4><a>AI Ready</a></h4>
                         <p>We provide full solution to ensure “AI-ready" data represents meticulously prepared data sets that have undergone a series of technical transformations to align them with the demands of artificial intelligence (AI) applications.
                         </p>
                         
                         <div class="align-content-end d-flex justify-content-end"> 
-                            <a href="#" class="read" style="bottom: 0px;">Read more</a>
+                            <!--a href="#" class="read" style="bottom: 0px;">Read more</a-->
                         </div>
                     </div>
                 </div>
@@ -142,12 +142,12 @@
                         <div class="icon">
                             <i class="fas fa-chart-bar primary-clr-bg"></i>
                         </div>
-                        <h4 class="number">02</h4>
+                        <h4 class="d-flex justify-content-end">Phase 2</h4>
                         <h4><a href="#">AI ENABLED</a></h4>
                         <p>AI-enabled data takes AI-readiness a step further. It refers to data that actively contributes to AI processes and decision-making <br><br><br><br></p>
                         <div class="align-content-end d-flex justify-content-end"> 
-                            <a href="#" class="read" style="bottom: 0px;">Read more</a>
-                            </div>
+                            <!--a href="#" class="read" style="bottom: 0px;">Read more</a-->
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
@@ -155,12 +155,12 @@
                         <div class="icon">
                             <i class="fas fa-copy green-clr-bg"></i>
                         </div>
-                        <h4 class="number">03</h4>
+                        <h4 class="d-flex justify-content-end">Phase 3</h4>
                         <h4><a href="#">AI CAPABLE </a></h4>
                         <p>AI Capable data means Data that is enriched with features and context, making it suitable for advanced AI applications like deep learning and natural language processing. <br><br><br> 
                         </p>
                         <div class="align-items-end d-flex justify-content-end"> 
-                        <a href="#" class="read" style="bottom: 0px;">Read more</a>
+                        <a href="#" class="btn btn-dark" style="bottom: 0px;">Get in touch</a>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
     <section class="about-section py-5">
         <div class="container py-lg-5 py-4">
             <div class="title-heading-w3 mx-auto text-center mb-sm-5 mb-4 pb-xl-4" style="max-width:600px">
-                <h3 class="title-style mb-2">Auto-Resolve</h3>
+                <h3 class="title-style mb-2">Service Automator</h3>
                 <p>How efficient is your current ticket-resolution solution? <br> <b> Auto Resolve</b>: State of Art AI solution using AI-ML Algorithms, NLP transformers to automate service requests, improving efficiency and providing deep insights. It is industry & language agnostic and can handle problems and issues in terms of allocation, follow through, diagnostic, analytics and optimization.</p>
             </div>
             <div class="row">
@@ -179,11 +179,11 @@
                         <div class="icon">
                             <i class="fas fa-laptop-code blue-clr-bg"></i>
                         </div>
-                        <h4 class="number">01</h4>
+                        <!--q1h4 class="number">01</h4-->
                         <h4><a href="#">Limitations of current systems</a></h4>
                         <p>Current systems generally are “Semi-Automated” including integration with POS, inventory management systems; do have work prioritization, BI Analytics YET have gaps</p>
                         <br>
-                        <a href="#" class="read">Read more</a>
+                        <!--a href="#" class="read">Read more</a-->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
@@ -191,11 +191,12 @@
                         <div class="icon">
                             <i class="fas fa-copy green-clr-bg"></i>
                         </div>
-                        <h4 class="number">02</h4>
+                        <!--h4 class="number">02</h4-->
                         <h4><a href="#">How Auto—resolve works
                         </a></h4>
-                        <p>Image goes here <br></p>
-                        <a href="#" class="read">Read more</a>
+                        <!--p>Image goes here <br></p-->
+                        <img src="assets/images2/sa.png" class="img-fluid" alt="">
+                        <!--a href="#" class="read">Read more</a-->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
@@ -203,15 +204,16 @@
                         <div class="icon">
                             <i class="fas fa-chart-bar primary-clr-bg"></i>
                         </div>
-                        <h4 class="number">03</h4>
+                        <!--h4 class="number">03</h4-->
                         <h4><a>Benefits of Auto-Resolve
                         </a></h4>
                         <p>An AI based solution that understand “natural language, automates ticket categorization, prioritises, continuously learns and provides deep insights
                         </p>
-                        <a href="#" class="read">Read more</a>
+                        <br>
+                        <br>
+                        <a href="#" class="btn btn-dark">Get in touch</a>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -220,28 +222,34 @@
         <h3 class="font-weight-bolder text-clr-bg text-center title-style">Industries We Served</h3><hr/>
         <div class="row">
             <div class="col p-2 col-lg-4 col-12">
-                <div class="p-4 text-white" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span>
-                            <i class="fa-solid fa-building-columns fa-2xl" style="font-size: 5rem;"></i>
-                        </span>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center p-3">
-                        <p class="text-center text-white"><strong>Financial Services</strong><br>
-                            (Banking, Insurance, Insurance Brokers, Non-bank financial institutions)</p>
+                <div class="p-4 text-white h-100" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div>
+                            <span class="d-flex justify-content-center">
+                                <i class="fa-solid fa-building-columns fa-2xl" style="font-size: 5rem;"></i>
+                            </span>
+                    
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <p class="text-center text-white"><strong>BFSI</strong><br>
+                                    (Banking, Insurance, Insurance Brokers)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col p-2 col-lg-4 col-12">
-                <div class="p-4 text-white" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span>
-                            <i class="fa-solid fa-building-flag fa-2xl" style="font-size: 5rem;"></i>
-                        </span>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center p-3">
-                        <p class="text-center text-white"><strong>Government</strong><br>
-                            (Banking, Insurance, Insurance Brokers, Non-bank financial institutions)</p>
+                <div class="p-4 text-white h-100" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div>
+                            <span class="d-flex justify-content-center">
+                                <i class="fa-solid fa-building-flag fa-2xl text-center" style="font-size: 5rem;"></i>
+                            </span>
+                    
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <p class="text-center text-white"><strong>Government</strong><br>
+                                    (Public Sector) </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -254,7 +262,7 @@
                     </div>
                     <div class="d-flex justify-content-center align-items-center p-3">
                         <p class="text-center text-white"><strong>Health Care</strong><br>
-                            (Banking, Insurance, Insurance Brokers, Non-bank financial institutions)</p>
+                            (Public & Private Health Care Providers,Pharmaceuticals,Clinics)</p>
                     </div>
                 </div>
             </div>
@@ -262,28 +270,34 @@
         
         <div class="row">
             <div class="col p-2 col-lg-4 col-12">
-                <div class="p-4 text-white" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span>
-                            <i class="fa-solid fa-toolbox fa-2xl" style="font-size: 5rem;"></i>
-                        </span>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center p-3">
-                        <p class="text-center text-white"><strong>Utilities</strong><br>
-                            (Transportation, Oil & Gas, Healthcare, Energy)<br><br>
+                <div class="p-4 text-white h-100" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div>
+                            <span class="d-flex justify-content-center">
+                                <i class="fa-solid fa-toolbox fa-2xl" style="font-size: 5rem;"></i>
+                            </span>
+                        
+                            <div class="p-3">
+                                <p class="text-center text-white"><strong>Utilities</strong><br>
+                                    (Transportation, Oil & Gas, Energy)<br><br>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col p-2 col-lg-4 col-12">
-                <div class="p-4 text-white" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span>
+                <div class="p-4 text-white h-100" style="border-radius: 10px;background-color: rgb(30, 78, 123);">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div>
+                        <span class="d-flex justify-content-center">
                             <i class="fa-solid fa-cart-shopping fa-2xl" style="font-size: 5rem;"></i>
                         </span>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center p-3">
-                        <p class="text-center text-white"><strong>Retail</strong><br>
-                            (Banking, Insurance, Insurance Brokers, Non-bank financial institutions)</p>
+                    
+                        <div class="p-3">
+                            <p class="text-center text-white"><strong>Retail</strong><br>
+                                ( Offline & E-Commerce )</p>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -296,7 +310,7 @@
                     </div>
                     <div class="d-flex justify-content-center align-items-center p-3">
                         <p class="text-center text-white"><strong>Manufacturing</strong><br>
-                            (Banking, Insurance, Insurance Brokers, Non-bank financial institutions)</p>
+                            (All types of Manufacturing Companies)</p>
                     </div>
                 </div>
             </div>
@@ -330,9 +344,9 @@
                 </div>
                 
                 <div class="col-xl-5 w-100 col-lg-6 offset-xl-1 mt-lg-0 mt-5 pt-lg-0 pt-5">
-                    <h3 class="title-style">We have AI solutions that
+                    <!--h3 class="title-style">We have AI solutions that
                         will increase your earnings</h3>
-                    <p class="mt-lg-4 mt-3 mb-sm-5 mb-4">team work web makers - description</p>
+                    <p class="mt-lg-4 mt-3 mb-sm-5 mb-4">team work web makers - description</p-->
                     <div class="two-grids mt-md-0 mt-md-5 mt-4">
                         <div id="secondCarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
@@ -372,7 +386,7 @@
         </div>
     </section>
 
-    <section class="w3l-ab-section py-5">
+    <!--section class="w3l-ab-section py-5">
         <div class="container py-md-5 py-4">
             <div class="row py-lg-4">
                 <div class="col-lg-6 section-width align-self">
@@ -387,12 +401,11 @@
                         <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
                             
                         </a>
-                        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
     <!-- //video section -->
     <section class="container">
         <h3 class="font-weight-bolder text-clr-bg text-center title-style">Blogs</h3><hr/>
@@ -404,7 +417,8 @@
                 <h4 class="text-center text-clr-bg mb-3">How ready is generative AI for Healthcare?</h4>
                 <p class="text-clr-bg text-justify mb-2">Generative AI is making strides in healthcare, aiding in diagnostics, drug discovery, and personalized medicine, but challenges like data privacy remain.</p>
                 <div class="d-flex justify-content-end">
-                    <button class="btn btn-dark">Read More</button>
+                    <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7089662229532319744?utm_source=share&utm_medium=member_desktop
+                    ">Read More</a>
                 </div>
             </div>
         </div>
@@ -416,7 +430,8 @@
                 <h4 class="text-center text-clr-bg mb-3">AI toolkit to verify AI Systems</h4>
                 <p class="text-clr-bg text-justify mb-2">To verify AI systems, use a toolkit including data validation to ensure quality, explainability tools for transparency, and performance evaluation for accuracy, fairness, and robustness across diverse datasets.</p>
                 <div class="d-flex justify-content-end">
-                    <button class="btn btn-dark">Read More</button>
+                    <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7073620783947808768?utm_source=share&utm_medium=member_desktop
+                    ">Read More</a>
                 </div>
             </div>
         </div>
@@ -428,7 +443,7 @@
                 <h4 class="text-center text-clr-bg mb-3">Emotional Intelligence and Leadership </h4>
                 <p class="text-clr-bg text-justify mb-2">Emotional intelligence (EI) is crucial for effective leadership. Leaders with high EI can understand and manage their emotions, empathize with others, build strong relationships, and navigate social complexities. EI helps leaders inspire and influence their teams, manage conflicts, and make better decisions. It's a key component of successful leadership, alongside other skills like strategic thinking and communication.</p>
                 <div class="d-flex justify-content-end">
-                    <button class="btn btn-dark">Read More</button>
+                    <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/posts/krishna123_leadership-emotionalintelligence-covid-activity-6677514870008750080-vHNn?utm_source=share&utm_medium=member_desktop">Read More</a>
                 </div>
             </div>
         </div>
@@ -442,39 +457,39 @@
                         <div class="row">
                             <div class="col-md-3 col-6 footer-list-29">
                                 <ul>
-                                    <h6 class="footer-title-29">Company</h6>
-                                    <li><a href="">About Our Services</a></li>
-                                    <li><a href="">Our Projects</a></li>
-                                    <li><a href="">View Our Blog</a></li>
-                                    <li><a href="">Check Our Careers</a></li>
+                                    <h6 class="footer-title-29">MORE INFO</h6>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Solutions</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-3 col-6 footer-list-29">
-                                <ul>
+                                <!--ul>
                                     <h6 class="footer-title-29">Quick Links</h6>
                                     <li><a href="">Management</a></li>
                                     <li><a href="">Department Services</a></li>
                                     <li><a href="">Make Appointment</a></li>
                                     <li><a href="">Our Business Growth</a></li>
-                                </ul>
+                                </ul-->
                             </div>
                             <div class="col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
-                                <ul>
+                                <!--ul>
                                     <h6 class="footer-title-29">Support</h6>
                                     <li><a href="">Live Chart</a></li>
                                     <li><a href="">Faq's</a></li>
                                     <li><a href=""> Support</a></li>
                                     <li><a href="">Terms of Service</a></li>
-                                </ul>
+                                </ul-->
                             </div>
                             <div class="col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
-                                <h6 class="footer-title-29">More Info</h6>
+                                <!--h6 class="footer-title-29">More Info</h6>
                                 <ul>
                                     <li><a href="">Privacy Policy</a></li>
                                     <li><a href=""> Terms of Service</a></li>
                                     <li><a href="">Contact us</a></li>
                                     <li><a href=""> Support</a></li>
-                                </ul>
+                                </ul-->
                             </div>
                         </div>
                     </div>
