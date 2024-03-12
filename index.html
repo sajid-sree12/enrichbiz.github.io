@@ -124,9 +124,9 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="box-wrap h-100">
-                        <div class="icon">
+                        <!--div class="icon">
                             <i class="fas fa-laptop-code blue-clr-bg"></i>
-                        </div>
+                        </div-->
                         <h4 class="d-flex justify-content-end">Phase 1</h4>
                         <h4><a>AI Ready</a></h4>
                         <p>We provide full solution to ensure “AI-ready" data represents meticulously prepared data sets that have undergone a series of technical transformations to align them with the demands of artificial intelligence (AI) applications.
@@ -139,9 +139,9 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                     <div class="box-wrap h-100">
-                        <div class="icon">
+                        <!--div class="icon">
                             <i class="fas fa-chart-bar primary-clr-bg"></i>
-                        </div>
+                        </div-->
                         <h4 class="d-flex justify-content-end">Phase 2</h4>
                         <h4><a href="#">AI ENABLED</a></h4>
                         <p>AI-enabled data takes AI-readiness a step further. It refers to data that actively contributes to AI processes and decision-making <br><br><br><br></p>
@@ -152,15 +152,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
                     <div class="box-wrap h-100">
-                        <div class="icon">
+                        <!--div class="icon">
                             <i class="fas fa-copy green-clr-bg"></i>
-                        </div>
+                        </div-->
                         <h4 class="d-flex justify-content-end">Phase 3</h4>
                         <h4><a href="#">AI CAPABLE </a></h4>
                         <p>AI Capable data means Data that is enriched with features and context, making it suitable for advanced AI applications like deep learning and natural language processing. <br><br><br> 
                         </p>
                         <div class="align-items-end d-flex justify-content-end"> 
-                        <a href="#" class="btn btn-dark" style="bottom: 0px;">Get in touch</a>
+                        <a href="#getintouch" class="btn btn-dark" style="bottom: 0px;">Get in touch</a>
                         </div>
                     </div>
                 </div>
@@ -175,10 +175,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="box-wrap">
-                        <div class="icon">
+                    <div class="box-wrap h-100">
+                        <!--div class="icon">
                             <i class="fas fa-laptop-code blue-clr-bg"></i>
-                        </div>
+                        </div-->
                         <!--q1h4 class="number">01</h4-->
                         <h4><a href="#">Limitations of current systems</a></h4>
                         <p>Current systems generally are “Semi-Automated” including integration with POS, inventory management systems; do have work prioritization, BI Analytics YET have gaps</p>
@@ -187,31 +187,32 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
-                    <div class="box-wrap h-100">
-                        <div class="icon">
+                    <div class="box-wrap h-100 p-0 pt-4">
+                        <!--div class="icon">
                             <i class="fas fa-copy green-clr-bg"></i>
-                        </div>
+                        </div-->
                         <!--h4 class="number">02</h4-->
-                        <h4><a href="#">How Auto—resolve works
+                        <h4 class="p-3"><a href="#">How Service Automator works
                         </a></h4>
                         <!--p>Image goes here <br></p-->
-                        <img src="assets/images2/sa.png" class="img-fluid" alt="">
+                        
+                        <img src="assets/images2/sa2.png" class="img-fluid" alt="">
                         <!--a href="#" class="read">Read more</a-->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                     <div class="box-wrap h-100">
-                        <div class="icon">
+                        <!--div class="icon">
                             <i class="fas fa-chart-bar primary-clr-bg"></i>
-                        </div>
+                        </div-->
                         <!--h4 class="number">03</h4-->
-                        <h4><a>Benefits of Auto-Resolve
+                        <h4><a>Benefits of Service Automator 
                         </a></h4>
                         <p>An AI based solution that understand “natural language, automates ticket categorization, prioritises, continuously learns and provides deep insights
                         </p>
                         <br>
                         <br>
-                        <a href="#" class="btn btn-dark">Get in touch</a>
+                        <a href="#getintouch" class="btn btn-dark">Get in touch</a>
                     </div>
                 </div>
             </div>
@@ -323,23 +324,25 @@
             <div class="row pb-xl-5 align-items-center">
                 <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
                     <div class="position-relative">
-                        <img src="assets/images2/Designer.png" alt="" class="img-fluid radius-image">
+                        <img id="getintouch" src="assets/images2/Designer.png" alt="" class="img-fluid radius-image">
                     </div>
-                    <div class="imginfo__box">
+                    <form class="imginfo__box" method="POST" action="/contact.php">
                         <h6 class="imginfo__title">Get In Touch</p>
                             <div class="    ">
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <input type="text" class="form-control mx-1" placeholder="Company" aria-label="Full name" aria-describedby="basic-addon1"><br>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                        <input type="text" name="company" class="form-control" placeholder="Company" aria-label="Full name" aria-describedby="basic-addon1" style="margin-right: 4px;"><br>
+                                        <input type="text" name="username" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
                                   </div>
-                                  <input type="text" class="form-control mx-1" placeholder="Mobile Number" aria-label="Full name" aria-describedby="basic-addon1"><br>
-                                  <input type="text" class="form-control" placeholder="Message" aria-label="Username" aria-describedby="basic-addon1">
+                                  <input type="text" name="mobile" class="form-control " placeholder="Mobile Number" aria-label="Mobile" aria-describedby="basic-addon1"><br>
+                                  <input type="text" name="message" class="form-control" placeholder="Message" aria-label="Message" aria-describedby="message-addon1">
+                                  <input type="text" name="email" class="form-control mt-4" placeholder="Email" aria-label="Message" aria-describedby="message-addon1">
+                                  
                             </div>
-                            <a href="" class="btn btn-dark">Submit</a>
+                            <button type="submit" class="btn btn-dark w-100 mt-3">Submit</button>
                         <!--a href="tel:http://+65 98285921"><span class="fa fa-phone mr-2"></span>+65 98285921</a-->
-                    </div>
+                    </form>
 
                 </div>
                 
@@ -409,41 +412,46 @@
     <!-- //video section -->
     <section class="container">
         <h3 class="font-weight-bolder text-clr-bg text-center title-style">Blogs</h3><hr/>
-        <div class="row p-2 bg-light mb-2" style="border-radius: 10px;">
-            <div class="col-lg-2 col-12 d-flex justify-content-center">
-                <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid" alt="" style="border-radius: 10px;max-height: 150px;">
-            </div>
-            <div class="col-lg-10 col-12 p-2">
-                <h4 class="text-center text-clr-bg mb-3">How ready is generative AI for Healthcare?</h4>
-                <p class="text-clr-bg text-justify mb-2">Generative AI is making strides in healthcare, aiding in diagnostics, drug discovery, and personalized medicine, but challenges like data privacy remain.</p>
-                <div class="d-flex justify-content-end">
-                    <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7089662229532319744?utm_source=share&utm_medium=member_desktop
-                    ">Read More</a>
+        <div class="row">
+            <div class="p-2 bg-light mb-2 col-lg-4" style="border-radius: 10px;">
+                <div class="d-flex justify-content-center">
+                    <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid" alt="" style="border-radius: 10px;max-height: 150px;">
+                </div>
+                <div class="col-lg-12 col-12 p-4 justify-content-center">
+                    <div>
+                        <h4 class="text-center text-clr-bg mb-3">How ready is generative AI for Healthcare?</h4>
+                        <p class="text-clr-bg text-justify mb-2">Generative AI is making strides in healthcare, aiding in diagnostics, drug discovery, and personalized medicine, but challenges like data privacy remain.</p>
+                        <div class="d-flex justify-content-end">
+                            <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7089662229532319744?utm_source=share&utm_medium=member_desktop
+                            ">Read More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row p-2 bg-light mb-2" style="border-radius: 10px;">
-            <div class="col-lg-2 col-12 d-flex justify-content-center">
-                <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid" alt="" style="border-radius: 10px;max-height: 150px;">
-            </div>
-            <div class="col-lg-10 col-12 p-2">
-                <h4 class="text-center text-clr-bg mb-3">AI toolkit to verify AI Systems</h4>
-                <p class="text-clr-bg text-justify mb-2">To verify AI systems, use a toolkit including data validation to ensure quality, explainability tools for transparency, and performance evaluation for accuracy, fairness, and robustness across diverse datasets.</p>
-                <div class="d-flex justify-content-end">
-                    <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7073620783947808768?utm_source=share&utm_medium=member_desktop
-                    ">Read More</a>
+            <div class="p-2 bg-light mb-2 col-lg-4" style="border-radius: 10px;">
+                <div class="d-flex justify-content-center">
+                    <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid" alt="" style="border-radius: 10px;max-height: 150px;">
                 </div>
+                <div class="col-lg-12 col-12 p-4">
+                    <h4 class="text-center text-clr-bg mb-3">AI toolkit to verify AI Systems</h4>
+                    <p class="text-clr-bg text-justify mb-2">To verify AI systems, use a toolkit including data validation to ensure quality, explainability tools for transparency, and performance evaluation for accuracy, fairness, and robustness across ..</p>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7073620783947808768?utm_source=share&utm_medium=member_desktop
+                        ">Read More</a>
+                    </div>
+                </div>
+                
             </div>
-        </div>
-        <div class="row p-2 bg-light mb-2" style="border-radius: 10px;">
-            <div class="col-lg-2 col-12 d-flex justify-content-center">
-                <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid" alt="" style="border-radius: 10px;max-height: 150px;">
-            </div>
-            <div class="col-lg-10 col-12 p-2">
-                <h4 class="text-center text-clr-bg mb-3">Emotional Intelligence and Leadership </h4>
-                <p class="text-clr-bg text-justify mb-2">Emotional intelligence (EI) is crucial for effective leadership. Leaders with high EI can understand and manage their emotions, empathize with others, build strong relationships, and navigate social complexities. EI helps leaders inspire and influence their teams, manage conflicts, and make better decisions. It's a key component of successful leadership, alongside other skills like strategic thinking and communication.</p>
-                <div class="d-flex justify-content-end">
-                    <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/posts/krishna123_leadership-emotionalintelligence-covid-activity-6677514870008750080-vHNn?utm_source=share&utm_medium=member_desktop">Read More</a>
+            <div class="col-lg-4 p-2 bg-light mb-2" style="border-radius: 10px;">
+                <div class="d-flex justify-content-center">
+                    <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid" alt="" style="border-radius: 10px;max-height: 150px;">
+                </div>
+                <div class="col-lg-12 col-12 p-4">
+                    <h4 class="text-center text-clr-bg mb-3">Emotional Intelligence and Leadership </h4>
+                    <p class="text-clr-bg text-justify mb-2">Emotional intelligence (EI) is crucial for effective leadership. Leaders with high EI can understand and manage their emotions, empathize with others, build .. </p>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-dark text-white" target="_blank" href="https://www.linkedin.com/posts/krishna123_leadership-emotionalintelligence-covid-activity-6677514870008750080-vHNn?utm_source=share&utm_medium=member_desktop">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
