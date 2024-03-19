@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-    $to = "sajid942@gmail.com";
+    $to = "info@enrichbiz.ai";
 
     $email_body = "Name: $name\nCompany:$company\nEmail: $email\nPhone: $phone\n\n$message";
 
