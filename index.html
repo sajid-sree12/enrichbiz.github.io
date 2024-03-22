@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <script src="script.js"></script>
     <style>
         .inverted-image{
             filter: invert(100%);
@@ -525,6 +526,50 @@
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fas fa-level-up-alt" aria-hidden="true"></span>
     </button>
+    
+        
+    
+    <div class="d-flex justify-content-end fixed-bottom mx-5 my-5">
+        <button class="btn btn-info m-1 shadow" onclick="openBot1()">Chatbot 1</button>
+        <button class="btn btn-info m-1 shadow" onclick="openBot2()">Chatbot 2</button>
+    </div>
+    
+    <div class="d-flex justify-content-end fixed-bottom mx-2 invisible" id="chatbox-container" style="bottom: 20%;">
+        <div class="card p-3 col-lg-4 shadow" style="min-height: 300px;">
+           <div class="d-flex justify-content-between align-items-center mb-2">
+              <div class="title text-center">Chatbot</div>
+              <button class="btn p-0 mx-2" onclick="closeChatbox()">X</button>
+           </div>
+           <div class="card-body border rounded h-100 mb-1" id="chatbox" style="max-height: 200px; overflow-y: scroll">
+              <p class="font-italic font-weight-light small">How May I Help you... <br></p>
+           </div>
+           <div class="d-flex align-items-end">
+              <div class="w-100">
+                 <input type="text" name="" id="userInput" class="form-control mb-2">
+                 <button class="btn btn-info w-100" onclick="sendMessage()">Search</button>
+              </div>
+           </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end fixed-bottom mx-2 invisible" id="chatbox-container2" style="bottom: 20%;">
+        <div class="card p-3 col-lg-4 shadow">
+           <div class="d-flex justify-content-between align-items-center mb-2">
+              <div class="title text-center">Chatbot 2</div>
+
+              <button class="btn p-0 mx-2" onclick="closeChatbox()">X</button>
+           </div>
+           <iframe
+                src="https://www.chatbase.co/chatbot-iframe/KcZBKH4sSSQAUnxAY6kDj"
+                title="Chatbot"
+                width="100%"
+                style="height: 100%; min-height: 400px"
+                frameborder="0"
+                >
+            </iframe>
+
+        </div>
+    </div>
+    
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
