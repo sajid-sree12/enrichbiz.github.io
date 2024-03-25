@@ -16,10 +16,376 @@
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <style>
+        ul .a {
+            list-style-type: circle;
+            }   
+    </style>
 </head>
 
 <body>
-    Hey buddy, I am upgrading myself.....
+    <!--header-->
+    <header id="site-header" class="sticky-lg-top" style="padding-right: 20px;">
+        <div class="container-fluid px-0">
+            <nav class="navbar navbar-expand-lg stroke px-0 pt-0">
+                <h1>
+                    <!--a class="navbar-brand" href="">
+                        <i class="fab fa-mastodon"></i>arket<span>place</span>
+                    </a-->
+                    <a class="navbar-brand pt-0" href="index.html">
+                        <img src="assets/images2/bg.jpg" class="img-fluid  pt-0" alt="our logo" title="Your logo" style="height:80px;" />
+                    </a>
+                </h1> 
+    
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa icon-expand fa-bars" style="color: rgb(33, 85, 181);"></span>
+                    <span class="fa icon-close fa-times" style="color: rgb(33, 85, 181);"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown active"> <!-- Add 'dropdown' class here -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="solutions.html">Solution 1</a>
+                                <a class="dropdown-item" href="solution2.html">Solution 2</a>
+                                <a class="dropdown-item" href="solution3.html">Solution 3</a>
+                                <a class="dropdown-item" href="solution4.html">Solution 4</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- //search button -->
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position" data-toggle="tooltip" data-placement="left" title="Light / Dark">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+
+    <!-- inner banner -->
+    <!--section class="inner-banner py-5">
+        <div class="w3l-breadcrumb py-lg-5">
+            <div class="container pt-4 pb-sm-4">
+                <h4 class="inner-text-title font-weight-bold pt-5">About Us</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><i class="fas fa-angle-right mx-2"></i>About</li>
+                </ul>
+            </div>
+        </div>
+    </section-->
+    <!-- //inner banner -->
+
+    <!-- about block -->
+    <section class="about-section">
+        <div class="container pt-lg-5 py-2">
+            <div class="title-heading-w3 mx-auto text-center mb-sm-5 mb-4 pb-xl-4" style="max-width:600px">
+                <h3 class="title-style mb-2">AI as a Service</h3>
+            </div>
+
+        </div>
+    </section>
+    <!--section class="w3l-testimonials pb-5" id="testimonials">
+        <div class="container py-md-5 py-4">
+            <div class="title-heading-w3 mx-auto text-center mb-5 pb-xl-4" style="max-width:600px">
+                <h3 class="title-style mb-2">What Our Clients Say!</h3>
+                <p>We are happy to provide solutions for your business</p>
+            </div>
+            <div class="owl-testimonial owl-carousel owl-theme mx-auto" style="max-width:1000px">
+                <div class="item">
+                    <div class="    slider-info">
+                        <div class="img-circle">
+                            <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid rounded" alt="client image">
+                        </div>
+                        <div class="message-info">
+                            <span class="fa fa-quote-left mr-2"></span>
+                            <div class="message">Testimonials Goes Here</div>
+                            <div class="name">- Rakesh Babu</div>
+                            <div class="desp">Team work Web Makers ,Nandyal</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-info">
+                        <div class="img-circle">
+                            <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid rounded" alt="client image">
+                        </div>
+                        <div class="message-info">
+                            <span class="fa fa-quote-left mr-2"></span>
+                            <div class="message">2nd Testimonials Goes Here</div>
+                            <div class="name">- Sajid</div>
+                            <div class="desp">Team work web makers ,Nandyal</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-info">
+                        <div class="img-circle">
+                            <img src="https://cdn-icons-png.freepik.com/512/9187/9187604.png" class="img-fluid rounded" alt="client image">
+                        </div>
+                        <div class="message-info">
+                            <span class="fa fa-quote-left mr-2"></span>
+                            <div class="message">3rd Testimonials Goes Here</div>
+                            <div class="name">- Venu gopal</div>
+                            <div class="desp">Team Work Web Makers ,Nandyal</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-->
+    <!-- //testimonials section -->
+    <div class="container box-wrap text-white py-0" style="border-radius: 15px;">
+        <div class="row p-0">
+            <div class="col-lg-6 p-4" style="background-color: rgb(0, 0, 0);">
+                <h3 class="text-light mb-3" style="font-weight: 700;">To Apply AI or Not to Apply AI</h3>
+                <h6 class="text-light mb-2">We bring structured methodology to help enterprises qualify and build AI solutions:</h6>
+                <ol>
+                    <p class="text-light">Technical Qualification: Is problem(s) solvable using AI?
+                    </p>
+                    <p class="text-light">Business Due-Diligence: Is it worth solving the problem(s) using AI. What are the quantifiable business results justifying the use of AI
+                    </p>
+                    <p class="text-light">Implementation Assessment: What resources and organizational process changes would be required and are these doable?
+                    </p>
+                    <p class="text-light">Customizable AI: Build and tailor AI models and algorithms to address specific challenges and extract value from AI
+                    </p>
+                </ol>
+            </div>
+            <div class="col-lg-6 p-4 d-flex align-items-center">
+                
+                <div class="">
+                    <h3 class="text-dark mb-3" style="font-weight: 700;">Benefits of AI as a Service from enrichbiz.ai
+                    </h3>
+                    
+                    <ol>
+                        <p class="text-dark">Qualify before throwing technology to a challenge
+                            <br>
+                        </p>
+                        <p class="text-dark">Avoid heavy investment in AI</p>
+                        <p class="text-dark">Reap benefits of AI and intelligent automation
+                        </p>
+                        <p class="text-dark">Focus on your core business
+                        </p>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29 py-5">
+            <div class="container py-lg-4">
+                <div class="row footer-top-29">
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-md-3 col-6 footer-list-29">
+                                <ul>
+                                    <h6 class="footer-title-29">MORE INFO</h6>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="solutions.html">Solutions</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-6 footer-list-29">
+                                <!--ul>
+                                    <h6 class="footer-title-29">Quick Links</h6>
+                                    <li><a href="">Management</a></li>
+                                    <li><a href="">Department Services</a></li>
+                                    <li><a href="">Make Appointment</a></li>
+                                    <li><a href="">Our Business Growth</a></li>
+                                </ul-->
+                            </div>
+                            <div class="col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
+                                <!--ul>
+                                    <h6 class="footer-title-29">Support</h6>
+                                    <li><a href="">Live Chart</a></li>
+                                    <li><a href="">Faq's</a></li>
+                                    <li><a href=""> Support</a></li>
+                                    <li><a href="">Terms of Service</a></li>
+                                </ul-->
+                            </div>
+                            <div class="col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
+                                <!--h6 class="footer-title-29">More Info</h6>
+                                <ul>
+                                    <li><a href="">Privacy Policy</a></li>
+                                    <li><a href=""> Terms of Service</a></li>
+                                    <li><a href="">Contact us</a></li>
+                                    <li><a href=""> Support</a></li>
+                                </ul-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 footer-contact-list mt-lg-0 mt-md-5 mt-4">
+                        <h6 class="footer-title-29">Social Media</h6>
+                        <div class="main-social-footer-29">
+                            <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-google-plus-g"></i></a>
+                            <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <!-- copyright -->
+                        <p class="copy-footer-29 mt-4">© 2024 Enrich Biz. All rights reserved. redesign by <a>Team Work Web Makers</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- counter for stats -->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter for stats -->
+
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- script for testimonials -->
+    <script>
+        $(document).ready(function () {
+            $('.owl-testimonial').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    480: {
+                        items: 1,
+                        nav: false
+                    },
+                    667: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for testimonials -->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+    <!-- //Js scripts -->
 </body>
 
 </html>
