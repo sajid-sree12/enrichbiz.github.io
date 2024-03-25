@@ -41,24 +41,32 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="solutions.html">Solutions</a>
+                        <li class="nav-item dropdown"> <!-- Add 'dropdown' class here -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="solutions.html">Solution 1</a>
+                                <a class="dropdown-item" href="solution2.html">Solution 2</a>
+                                <a class="dropdown-item" href="solution3.html">Solution 3</a>
+                                <a class="dropdown-item" href="solution4.html">Solution 4</a>
+                            </div>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
-                        <!-- //search button -->
                     </ul>
                 </div>
+                
                 <!-- //search button -->
                 <!-- toggle switch for light and dark theme -->
                 <div class="cont-ser-position" data-toggle="tooltip" data-placement="left" title="Light / Dark">

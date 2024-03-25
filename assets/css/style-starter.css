@@ -18475,7 +18475,14 @@ button.search-btn:hover {
 
 /* title style */
 .title-heading-w3 {
-  max-width: 700px;
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+@media(max-width:450px){
+  .title-heading-w3 {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 h3.title-style {
