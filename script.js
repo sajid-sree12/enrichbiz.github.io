@@ -49,9 +49,9 @@
 
 
  function closeChatbox() {
-    var chatboxContainer = document.getElementById("chatbox-container");
+    //var chatboxContainer = document.getElementById("chatbox-container");
     var chatboxContainer2=document.getElementById("chatbox-container2")
-    chatboxContainer.classList.add("invisible");
+    //chatboxContainer.classList.add("invisible");
     chatboxContainer2.classList.add("invisible");
 }
 
@@ -72,18 +72,11 @@ function openBot1(){
 }
 
 function openBot2(){
-    var elem=document.getElementById("chatbox-container");
+    //var elem=document.getElementById("chatbox-container");
     var elem2=document.getElementById("chatbox-container2");
-    if ("invisible" in elem.classList){
-        //do nothing
-        elem2.classList.remove("invisible");
-        elem2.animate([{opacity: '0'}, {opacity:'1'}], {duration:300});
-    }
-    else{
-        elem.classList.add("invisible");
-        elem2.classList.remove("invisible");
-        elem2.animate([{opacity: '0'}, {opacity:'1'}], {duration:300});
-    }
+    elem2.classList.remove("invisible");
+    elem2.animate([{opacity: '0'}, {opacity:'1'}], {duration:300});
+    
 
 }
 
