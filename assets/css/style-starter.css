@@ -11007,7 +11007,7 @@ a.text-dark:focus {
   --iframe-filter: grayscale(100%);
   --bg-grey: #0b0d0e;
   --bg-light: #0c0b0b;
-  --text-clr:var(--white)
+  --text-clr: white;
   --serach-shadow: rgb(6 8 8);
   --box-shadow: 0 1rem 3rem rgb(0 0 0 / 12%);
   --dark-layer-color: linear-gradient(to top, rgb(21 21 21 / 67%), rgb(23 23 23 / 17%));
@@ -20359,3 +20359,24 @@ select {
     background-color: #fcfcfa;
   }
 }
+
+.section-bg{
+  background:url(../images2/section3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-bg2{
+  background:url(../images2/section3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.section-bg3{
+  background:url(../images2/section2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
