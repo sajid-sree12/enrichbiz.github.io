@@ -18749,12 +18749,7 @@ h4.small-text-banner {
 /* //3grids section */
 
 /* home block 3 */
-.home-block-3-left::before {
-  content: url(../images/dots.png);
-  position: absolute;
-  top: -70px;
-  right: -70px;
-}
+
 
 .grids_info h4 {
   font-size: 22px;
