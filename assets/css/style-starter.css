@@ -11084,9 +11084,8 @@ iframe {
   display: block;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+.box-height{
+  height: 32rem;
 }
 
 h1,
@@ -11109,9 +11108,7 @@ p {
   font-weight: 500;
 }
 
-li {
-  list-style-type: none;
-}
+
 
 p.white {
   color: #eee;
